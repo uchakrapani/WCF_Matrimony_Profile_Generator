@@ -1,0 +1,61 @@
+# Ignore build output folders
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.swp
+
+# Logs
+*.log
+
+# Configuration files
+appsettings*.json
+
+# Packages
+*.nupkg
+*.snupkg
+*.lock.json
+project.lock.json
+project.fragment.lock.json
+
+# Visual Studio specific
+.vscode/
+.vs/
+.idea/
+.vscode-test/
+*.vcxproj.user
+*.tlog
+*.lastbuildstate
+*.log
+*.vsp
+*.pdb
+ipch/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.bak
+
+# Resharper files
+_ReSharper*/
+
+# Entity Framework migrations
+Migrations/
+
+# Runtime-generated files
+*.dbmdl
+*.jfm
+
+# Publish output
+publish/
+out/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
